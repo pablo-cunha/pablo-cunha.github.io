@@ -1,4 +1,4 @@
-import user_image from './gthub-profile.jfif';
+import user_image from './github-profile.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -6,6 +6,8 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import right_arrow_white from './right-arrow-white.png';
+import logo from './logo.png';
+import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import download_icon from './download-icon.png';
@@ -33,6 +35,8 @@ export const assets = {
     project_icon,
     project_icon_dark,
     right_arrow_white,
+    logo,
+    logo_dark,
     mail_icon,
     mail_icon_dark,
     download_icon,
@@ -69,7 +73,7 @@ export const workData = [
         bgImage: './public/git-search.JPG',
     },
     {
-        title: 'Lista de Taredas',
+        title: 'Lista de Tarefas',
         description: 'Aplicação Web',
         bgImage: './public/vue-todolist.jpg',
     },
@@ -83,7 +87,7 @@ export const workData = [
 // ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens de Programação', description: 'HTML, CSS, JavaScript, PHP e Python' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens de Programação', description: 'HTML, CSS, JavaScript, Java e Python' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educação', description: 'Tecnólogo em Análise e Desenvolvimento de Sistemas' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Frameworks', description: 'ReactJS, NextJS e VueJS' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Frameworks', description: 'ReactJS, NextJS e Angular' }
 ];
