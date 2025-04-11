@@ -15,10 +15,8 @@ const About = () => {
             </div>
             <div className="flex-1">
                 <p className='mb-10 max-w-2xl font-Ovo'>
-                    Graduando em Análise e Desenvolvimento de Sistemas, com experiência em desenvolvimento web e
-                    forte capacidade de aprendizado. Durante meu último estágio, desenvolvi habilidades sólidas em
-                    resolução de problemas e adaptação a novos desafios. Busco oportunidades em empresas de
-                    tecnologia onde possa aplicar e expandir meus conhecimentos em desenvolvimento de software.
+                    Sou um desenvolvedor fullstack com experiência em desenvolvimento de aplicações web e low-code.
+                    Busco oportunidades em empresas de tecnologia onde possa aplicar e expandir meus conhecimentos em desenvolvimento de software.
                 </p>
                 <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                     {infoList.map(({icon, iconDark, title, description}, index) => (

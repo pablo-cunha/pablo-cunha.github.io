@@ -44,7 +44,7 @@ const Navbar = () => {
             ${isScrolled ? "" : "bg-white shadow-sm bg-opacity-50"}`}>
                 <li><a className='font-Ovo' href="#top">Home</a></li>
                 <li><a className='font-Ovo' href="#about">Sobre</a></li>
-                <li><a className='font-Ovo' href="#services">Serviços</a></li>
+                <li><a className='font-Ovo' href="#services">Competências</a></li>
                 <li><a className='font-Ovo' href="#portfolio">Portfolio</a></li>
                 <li><a className='font-Ovo' href="#contacts">Contato</a></li>
             </ul>

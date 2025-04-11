@@ -1,10 +1,10 @@
 import user_image from './github-profile.jpg';
-import code_icon from './code-icon.png';
-import code_icon_dark from './code-icon-dark.png';
-import edu_icon from './edu-icon.png';
-import edu_icon_dark from './edu-icon-dark.png';
-import project_icon from './project-icon.png';
-import project_icon_dark from './project-icon-dark.png';
+import code_icon from './code-icon.svg';
+import code_icon_dark from './code-icon-dark.svg';
+import edu_icon from './edu-icon.svg';
+import edu_icon_dark from './edu-icon-dark.svg';
+import framework_icon from './framework-icon.svg';
+import framework_icon_dark from './framework-icon-dark.svg';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -25,6 +25,10 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import web_icon from './web.svg';
+import lock_icon from './lock.svg';
+import db_icon from './database.svg';
+import ui_icon from './design.svg';
 
 export const assets = {
     user_image,
@@ -32,8 +36,8 @@ export const assets = {
     code_icon_dark,
     edu_icon,
     edu_icon_dark,
-    project_icon,
-    project_icon_dark,
+    framework_icon,
+    framework_icon_dark,
     right_arrow_white,
     logo,
     logo_dark,
@@ -53,7 +57,11 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    web_icon,
+    lock_icon,
+    ui_icon,
+    db_icon
 };
 
 export const workData = [
@@ -79,15 +87,15 @@ export const workData = [
     },
 ]
 
-// export const serviceData = [
-//     { icon: assets.web_icon, title: 'Desenvolvimento Web', description: 'Desenvolvedor Front-end com experiências em NextJS, ReactJS e VueJS', link: '' },
-//     { icon: assets.mobile_icon, title: 'Segurança', description: 'Conceitos e boas práticas com criptografia e desenvolvimento seguro', link: '' },
-//     { icon: assets.ui_icon, title: 'Banco de Dados', description: 'SQL, MariaDB e PostgresSQL', link: '' },
-//     { icon: assets.graphics_icon, title: 'Análise de Dados', description: 'Experiente no tratamento de dados e no desenvolvimento de dashboards em Python', link: '' },
-// ]
+export const serviceData = [
+    { icon: assets.web_icon, title: 'Desenvolvimento Web', description: 'Desenvolvedor Fullstack com experiências em React, Angular e Spring Framework', link: '' },
+    { icon: assets.lock_icon, title: 'Segurança', description: 'Conceitos e boas práticas com criptografia e desenvolvimento seguro', link: '' },
+    { icon: assets.db_icon, title: 'Banco de Dados', description: 'MySQL e PostgreSQL', link: '' },
+    { icon: assets.ui_icon, title: 'UI/UX Design', description: 'Design intuitivo e focado na experiência do usuário', link: '' },
+]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens de Programação', description: 'HTML, CSS, JavaScript, Java e Python' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educação', description: 'Tecnólogo em Análise e Desenvolvimento de Sistemas' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Frameworks', description: 'ReactJS, NextJS e Angular' }
+    { icon: assets.framework_icon, iconDark: assets.framework_icon_dark, title: 'Frameworks', description: 'ReactJS, NextJS, Angular e Spring' }
 ];
