@@ -24,14 +24,12 @@ export default function Home() {
 
   useEffect(() => {
 
-    var theme = localStorage.theme;
-
     if(darkMode) {
       document.documentElement.classList.add('dark');
-      theme = 'dark';
+      localStorage.theme = 'dark';
     } else {
       document.documentElement.classList.remove('dark');
-      theme = '';
+      localStorage.theme = '';
     }
 
   }, [darkMode])
